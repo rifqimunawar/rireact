@@ -1,12 +1,14 @@
 import './App.css';
+import Introduction from './components/introduction'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <nav>testing</nav>
-      </header>
-      <section>sesi 1</section>
+    <div>
+      <section>
+        <h1>hello word</h1>
+        <Introduction name ="rifqi anjay"/>
+        <Introduction name ="munawar"/>
+      </section>
     </div>
   );
 }
